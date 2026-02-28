@@ -22,34 +22,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="12dp"
-        android:text="Question text here" />
+        android:text="@string/question_text" />
 
     <Button
         android:id="@+id/btn_answer1"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ANSWER 1" />
+        android:text="@string/answer_1" />
 
     <Button
         android:id="@+id/btn_answer2"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ANSWER 2" />
+        android:text="@string/answer_2" />
 
     <Button
         android:id="@+id/btn_answer3"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ANSWER 3" />
+        android:text="@string/answer_3" />
 
     <Button
         android:id="@+id/btn_answer4"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ANSWER 4" />
+        android:text="@string/answer_4" />
 
 </LinearLayout>
