@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class QuestionRepository {
-    private ArrayList<Question> questions;
+    private final ArrayList<Question> questions = new ArrayList<>();
 
     public QuestionRepository() {
         questions.add(

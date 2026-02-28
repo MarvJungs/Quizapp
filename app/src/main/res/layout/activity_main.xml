@@ -29,6 +29,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="checkAnswer"
         android:text="@string/answer_1" />
 
     <Button
@@ -36,6 +37,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="checkAnswer"
         android:text="@string/answer_2" />
 
     <Button
@@ -43,6 +45,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="checkAnswer"
         android:text="@string/answer_3" />
 
     <Button
@@ -50,6 +53,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="checkAnswer"
         android:text="@string/answer_4" />
 
 </LinearLayout>
