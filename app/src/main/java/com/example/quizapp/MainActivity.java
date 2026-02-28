@@ -59,9 +59,11 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
     private void drawQuestion() {
         q = questionRepository.getRandomQuestion();
     }
+    
     private void displayQuestion() {
         for (Button answer: answers) {
             answer.setEnabled(true);
